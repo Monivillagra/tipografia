@@ -1,0 +1,40 @@
+div {
+	width: 200px;
+	height: 400px;
+	background: #CEE3F6;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	transition-timing-function: 5s;
+}
+
+@font-face {
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Akronim', cursive;
+	src: https://fonts.google.com/?selection.family=Akronim|Dancing+Script
+}
+
+div:hover {
+	border: 5px outset #81F79F; 
+	transition-duration: 1s;
+	box-shadow: 2px 2px 0px 0px;
+}
+
+h4 {
+	font-family: 'Akronim', cursive;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 18px;	
+}
+
+
+
